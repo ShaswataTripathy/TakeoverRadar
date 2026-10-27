@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# Large or re-downloadable data: rebuild with the pipeline, or fetch corpus.pkl from Hugging Face
+data/raw/
+data/processed/
+data/interim/*
+!data/interim/events.jsonl
+!data/interim/mined_events.jsonl
+results/*.parquet
+logs/
+model_v1_osv_only/
+*.pkl
